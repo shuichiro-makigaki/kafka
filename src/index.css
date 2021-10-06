@@ -1,0 +1,54 @@
+body {
+  background-color: #404040;
+  font-size: x-small;
+  margin-bottom: 20px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+footer .message {
+  height: 20px;
+  line-height: 20px;
+}
+footer .progress-bar {
+  height: 20px;
+  width: 200px;
+  padding-top: 4px;
+}
+footer .progress-value {
+  height: 20px;
+  width: 50px;
+  line-height: 20px;
+}
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie {
+  display: flex;
+  margin: 5px;
+}
+.title {
+  color: white;
+  width: 300px;
+  margin-left: 5px;
+  overflow: hidden;
+}
+.thumbnails {
+  height: 100px;
+  background-color: black;
+}
+.thumbnails img {
+  max-width: 150px;
+  min-width: 150px;
+  height: 100%;
+  min-height: 100px;
+  object-fit: contain;
+}
